@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var age=28;
+        var x=18, y=15;
+        if(x<10 && y>1){
+            document.write("x 10 dan küçük ve y 1 den büyüktür."+"<br>");
+        }
+        else if(x==5||y==5){
+            document.write("x 5 e eşittir veya y 5 e eşittir."+"<br>");
+        }
+        else if(!(x==y)){
+            document.write("x y ye eşit değildir."+"<br>");
+        }
+        else{
+            document.write("x y ye eşittir."+"<br>");
+        }
+        if(age<18){
+            document.write("Siteden çabuk çık."+"<br>");
+        }
+        else{
+            document.write("Sitede keyifli vakit geçirebilirsin."+"<br>");
+        }
+        var hour=new Date().getHours();
+
+        if(hour<10){
+            document.write("Günaydın kendinize gelin arkadaşlar "+"<br>");
+        }
+        else if(hour<20){
+            document.write("İyi günler kendinize gelin arkadaşlar "+"<br>");
+        }
+        else{
+            document.write("İyi geceler"+"<br>");
+        }
+
+        switch(hour){
+            case 10:
+                document.write("Saat 10"+"<br>");
+                break;
+            case 11:
+                document.write("Saat 11"+"<br>");
+                break;
+            default:
+                document.write("Saat 10 ve 11 arasında"+"<br>");
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
